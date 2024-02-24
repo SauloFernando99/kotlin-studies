@@ -24,4 +24,12 @@ fun main(){
     listaCursos.add("Técnico em Células")
     listaCursos.add("Processos Gerenciais")
 
+    val foundStrings = findSistemasString(listaCursos)
+
+    var count = 0
+
+    for (string in foundStrings){
+        println(count.toString() + " - " + string)
+        count++
+    }
 }
