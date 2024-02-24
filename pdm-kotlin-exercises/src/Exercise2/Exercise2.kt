@@ -1,3 +1,5 @@
+package Exercise2
+
 //Map print
 
 fun main(){

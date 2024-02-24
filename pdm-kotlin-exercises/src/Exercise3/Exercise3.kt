@@ -1,3 +1,5 @@
+package Exercise3
+
 //Creating functions
 
 fun foo(i: Int, j: Int, soma: (Int, Int) -> Int): Int{
