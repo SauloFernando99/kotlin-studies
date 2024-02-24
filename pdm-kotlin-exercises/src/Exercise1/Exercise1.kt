@@ -31,7 +31,7 @@ fun main(){
     var count = 0
 
     for (string in foundStrings){
-        println(count.toString() + " - " + string)
+        println("$count - $string")
         count++
     }
 }
