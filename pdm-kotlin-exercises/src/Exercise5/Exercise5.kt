@@ -41,11 +41,11 @@ fun main() {
         }
         -1
     }
-    println("Square root: " + result1)
+    println("Square root: $result1")
 
     val result2 = processaInteiros(2, 4) { a, b -> a + b }
-    println("Sum: " + result2)
+    println("Sum: $result2")
 
     val result3 = processaInteiros(10, 2) {a, b -> a * b}
-    println("Multiply: " + result3)
+    println("Multiply: $result3")
 }
